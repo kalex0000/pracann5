@@ -1,3 +1,4 @@
+#Implement a Hopfield Network for solving the traveling salesman problem 
 import numpy as np
 
 class HopfieldTSP:
@@ -65,3 +66,4 @@ cities = [(0, 0), (1, 3), (4, 3), (6, 1), (3, 0)]
 tsp = HopfieldTSP(cities)
 tour = tsp.run()
 print("TSP Tour:", tour)
+
