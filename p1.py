@@ -1,3 +1,4 @@
+#Develop a Bidirectional Associative Memory (BAM) for pattern recall. 
 import numpy as np
 
 class BAM:
@@ -36,3 +37,4 @@ print("X -> Y:", bam.recall(x_test, mode="XtoY"))
 
 y_test = np.array([-1, 1, 1])
 print("Y -> X:", bam.recall(y_test, mode="YtoX"))
+
